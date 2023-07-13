@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+        <div data-key="65" class="col">
+            <div class="letter">A</div><p>Bell</p>
+        </div>
+        <div data-key="83" class="col">
+            <div class="letter">S</div><p>Clap</p>
+        </div>
+        <div data-key="68" class="col">
+            <div class="letter">D</div><p>Drum</p>
+        </div>
+        <div data-key="70" class="col">
+            <div class="letter">F</div><p>Hit-Hat</p>
+        </div>
+        <div data-key="71" class="col">
+            <div class="letter">G</div><p>Ice</p>
+        </div>
+        <div data-key="72" class="col">
+            <div class="letter">H</div><p>Kick</p>
+        </div>
+        <div data-key="74" class="col">
+            <div class="letter">J</div><p>Open-Hat</p>
+        </div>
+        <div data-key="75" class="col">
+            <div class="letter">K</div><p>Snare</p>
+        </div>
+        <div data-key="76" class="col">
+            <div class="letter">L</div><p>Chime</p>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./sound/bell.mp3"></audio>
+    <audio data-key="83" src="./sound/clap.wav"></audio>
+    <audio data-key="68" src="./sound/drum.mp3"></audio>
+    <audio data-key="70" src="./sound/hithat.mp3"></audio>
+    <audio data-key="71" src="./sound/ice.mp3"></audio>
+    <audio data-key="72" src="./sound/kick.mp3"></audio>
+    <audio data-key="74" src="./sound/openhat.mp3"></audio>
+    <audio data-key="75" src="./sound/snare.mp3"></audio>
+    <audio data-key="76" src="./sound/chime.mp3"></audio>
+
+</body>
+<script src="script.js"></script>
+</html>
